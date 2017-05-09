@@ -20,8 +20,6 @@ public class Criptografia {
 		int q = arr[1];
 		int fi = (p - 1) * (q - 1);
 		int d = BigInteger.valueOf(e).modInverse(BigInteger.valueOf(fi)).intValue();
-
-		cambio
 		out.println("la llave privada es " + d + " " + n);
 		out.print("el resultado es: ");
 		int seg = 3;
